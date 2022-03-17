@@ -461,6 +461,11 @@ img.link {
   width: 150px;
 }
 
+.active-skill-data .img-wrapper{
+  height: 102px;
+  align-items: center;
+}
+
 .statistic-list {
   row-gap: 80px;
 }
@@ -2928,6 +2933,10 @@ footer .menu.vertical {
     width: 120px;
   }
 
+  .active-skill-data .img-wrapper{
+    height: 82px;
+  }
+
   .feature-list {
     grid-template-columns: 1fr;
     gap: 24px;
@@ -3193,6 +3202,10 @@ footer .menu.vertical {
     width: 100px;
   }
 
+  .active-skill-data .img-wrapper{
+    height: 68px;
+  }
+
   .mt--28px {
     margin-top: 20px;
   }
@@ -3298,3 +3311,6 @@ footer .menu.vertical {
 }
 
 
+.hires-sc .custom-tooltip{
+  display: none;
+}
