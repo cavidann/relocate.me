@@ -459,9 +459,13 @@ img.link {
 
 .linktree {
   width: 150px;
+  height: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  object-fit: contain;
 }
 
-.active-skill-data .img-wrapper{
+.active-skill-data .img-wrapper {
   height: 102px;
   align-items: center;
 }
@@ -478,20 +482,20 @@ img.link {
   z-index: -1;
 }
 
-.skill-item .custom-tooltip{
+.skill-item .custom-tooltip {
   width: 310px;
 }
 
-.skill-item .custom-tooltip p{
+.skill-item .custom-tooltip p {
   width: 100%;
 }
 
-.skill-item .custom-tooltip .tooltip-img{
+.skill-item .custom-tooltip .tooltip-img {
   width: 200px;
   margin: 12px auto;
 }
 
-.skill-item .custom-tooltip .p2--medium{
+.skill-item .custom-tooltip .p2--medium {
   color: #252525;
 }
 
@@ -2857,10 +2861,10 @@ footer .menu.vertical {
   /* *{
         background-color: green;
     } */
-    .profile-data{
-      margin-bottom: 20px;
-      width: 100%;
-    }
+  .profile-data {
+    margin-bottom: 20px;
+    width: 100%;
+  }
   .container,
   .container-fluid {
     padding-left: 32px;
@@ -2933,7 +2937,7 @@ footer .menu.vertical {
     width: 120px;
   }
 
-  .active-skill-data .img-wrapper{
+  .active-skill-data .img-wrapper {
     height: 82px;
   }
 
@@ -3090,15 +3094,16 @@ footer .menu.vertical {
   }
 }
 
-.hide-in--desktop{
+.hide-in--desktop {
   display: none;
 }
 
 @media screen and (max-width: 32.5em) {
-  .skill-group, .skill-list {
+  .skill-group,
+  .skill-list {
     gap: 2px;
-}
-  .hide-in--desktop{
+  }
+  .hide-in--desktop {
     display: block;
   }
 
@@ -3106,8 +3111,8 @@ footer .menu.vertical {
     margin-right: 12px !important;
     margin-left: 12px !important;
   }
-  
-  .btn-group .btn{
+
+  .btn-group .btn {
     margin-top: 12px;
   }
   .partners-sc .partner-list {
@@ -3202,7 +3207,7 @@ footer .menu.vertical {
     width: 100px;
   }
 
-  .active-skill-data .img-wrapper{
+  .active-skill-data .img-wrapper {
     height: 68px;
   }
 
@@ -3231,7 +3236,6 @@ footer .menu.vertical {
     line-height: 1.32;
   }
 }
-
 
 .loader {
   content: "";
@@ -3310,7 +3314,6 @@ footer .menu.vertical {
   display: block;
 }
 
-
-.hires-sc .custom-tooltip{
+.hires-sc .custom-tooltip {
   display: none;
 }
